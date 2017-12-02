@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20AF68E138BE1FEA0E0E659E /* Pods_FocuserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41D5057AD4D74887BB82176 /* Pods_FocuserTests.framework */; };
+		5CC5A1761FD31847009F902D /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC5A1751FD31847009F902D /* digital-7.ttf */; };
+		5CD2F93C1FD1BE54007EA752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD2F93B1FD1BE54007EA752 /* AppDelegate.swift */; };
+		5CD2F93E1FD1BE54007EA752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD2F93D1FD1BE54007EA752 /* ViewController.swift */; };
+		5CD2F9411FD1BE54007EA752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD2F93F1FD1BE54007EA752 /* Main.storyboard */; };
+		5CD2F9441FD1BE54007EA752 /* Focuser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CD2F9421FD1BE54007EA752 /* Focuser.xcdatamodeld */; };
+		5CD2F9461FD1BE54007EA752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD2F9451FD1BE54007EA752 /* Assets.xcassets */; };
+		5CD2F9491FD1BE54007EA752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD2F9471FD1BE54007EA752 /* LaunchScreen.storyboard */; };
+		5CD2F9541FD1BE54007EA752 /* FocuserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD2F9531FD1BE54007EA752 /* FocuserTests.swift */; };
+		5CD2F95F1FD1BE54007EA752 /* FocuserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD2F95E1FD1BE54007EA752 /* FocuserUITests.swift */; };
+		7D44EC7AB11046DB949B309A /* Pods_FocuserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CF9C31DA913064CBC58602 /* Pods_FocuserUITests.framework */; };
+		B1B0C728E9E1FB56AFA7068A /* Pods_Focuser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F769FB59C6E3A368B8B2CC1F /* Pods_Focuser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CD2F9501FD1BE54007EA752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD2F9301FD1BE54007EA752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD2F9371FD1BE54007EA752;
+			remoteInfo = Focuser;
+		};
+		5CD2F95B1FD1BE54007EA752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD2F9301FD1BE54007EA752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD2F9371FD1BE54007EA752;
+			remoteInfo = Focuser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CC5A1751FD31847009F902D /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		5CD2F9381FD1BE54007EA752 /* Focuser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focuser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD2F93B1FD1BE54007EA752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CD2F93D1FD1BE54007EA752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CD2F9401FD1BE54007EA752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CD2F9431FD1BE54007EA752 /* Focuser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Focuser.xcdatamodel; sourceTree = "<group>"; };
+		5CD2F9451FD1BE54007EA752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CD2F9481FD1BE54007EA752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CD2F94A1FD1BE54007EA752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD2F94F1FD1BE54007EA752 /* FocuserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocuserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD2F9531FD1BE54007EA752 /* FocuserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocuserTests.swift; sourceTree = "<group>"; };
+		5CD2F9551FD1BE54007EA752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD2F95A1FD1BE54007EA752 /* FocuserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocuserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD2F95E1FD1BE54007EA752 /* FocuserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocuserUITests.swift; sourceTree = "<group>"; };
+		5CD2F9601FD1BE54007EA752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ED557F4DCF7B5B4D7490DD0 /* Pods-Focuser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focuser.release.xcconfig"; path = "Pods/Target Support Files/Pods-Focuser/Pods-Focuser.release.xcconfig"; sourceTree = "<group>"; };
+		865BE634BE82098FC42FD830 /* Pods-FocuserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocuserTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FocuserTests/Pods-FocuserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95CF9C31DA913064CBC58602 /* Pods_FocuserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocuserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41D5057AD4D74887BB82176 /* Pods_FocuserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocuserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5699424C05A5406B34F6189 /* Pods-FocuserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocuserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FocuserUITests/Pods-FocuserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF6CDA7CA5E42DD4C5862E5 /* Pods-Focuser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Focuser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Focuser/Pods-Focuser.debug.xcconfig"; sourceTree = "<group>"; };
+		F710E226182EDE105FFC8F31 /* Pods-FocuserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocuserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FocuserTests/Pods-FocuserTests.release.xcconfig"; sourceTree = "<group>"; };
+		F769FB59C6E3A368B8B2CC1F /* Pods_Focuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Focuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3251CCBC6E92E9FDAC2D78 /* Pods-FocuserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocuserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FocuserUITests/Pods-FocuserUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD2F9351FD1BE54007EA752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B0C728E9E1FB56AFA7068A /* Pods_Focuser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD2F94C1FD1BE54007EA752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AF68E138BE1FEA0E0E659E /* Pods_FocuserTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD2F9571FD1BE54007EA752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D44EC7AB11046DB949B309A /* Pods_FocuserUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE088B3D79296D8AE0D5B31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F769FB59C6E3A368B8B2CC1F /* Pods_Focuser.framework */,
+				B41D5057AD4D74887BB82176 /* Pods_FocuserTests.framework */,
+				95CF9C31DA913064CBC58602 /* Pods_FocuserUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD2F92F1FD1BE54007EA752 = {
+			isa = PBXGroup;
+			children = (
+				5CD2F93A1FD1BE54007EA752 /* Focuser */,
+				5CD2F9521FD1BE54007EA752 /* FocuserTests */,
+				5CD2F95D1FD1BE54007EA752 /* FocuserUITests */,
+				5CD2F9391FD1BE54007EA752 /* Products */,
+				979D9068A179AD2F82DB9986 /* Pods */,
+				1CE088B3D79296D8AE0D5B31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD2F9391FD1BE54007EA752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD2F9381FD1BE54007EA752 /* Focuser.app */,
+				5CD2F94F1FD1BE54007EA752 /* FocuserTests.xctest */,
+				5CD2F95A1FD1BE54007EA752 /* FocuserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD2F93A1FD1BE54007EA752 /* Focuser */ = {
+			isa = PBXGroup;
+			children = (
+				5CC5A1751FD31847009F902D /* digital-7.ttf */,
+				5CD2F93B1FD1BE54007EA752 /* AppDelegate.swift */,
+				5CD2F93D1FD1BE54007EA752 /* ViewController.swift */,
+				5CD2F93F1FD1BE54007EA752 /* Main.storyboard */,
+				5CD2F9451FD1BE54007EA752 /* Assets.xcassets */,
+				5CD2F9471FD1BE54007EA752 /* LaunchScreen.storyboard */,
+				5CD2F94A1FD1BE54007EA752 /* Info.plist */,
+				5CD2F9421FD1BE54007EA752 /* Focuser.xcdatamodeld */,
+			);
+			path = Focuser;
+			sourceTree = "<group>";
+		};
+		5CD2F9521FD1BE54007EA752 /* FocuserTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CD2F9531FD1BE54007EA752 /* FocuserTests.swift */,
+				5CD2F9551FD1BE54007EA752 /* Info.plist */,
+			);
+			path = FocuserTests;
+			sourceTree = "<group>";
+		};
+		5CD2F95D1FD1BE54007EA752 /* FocuserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CD2F95E1FD1BE54007EA752 /* FocuserUITests.swift */,
+				5CD2F9601FD1BE54007EA752 /* Info.plist */,
+			);
+			path = FocuserUITests;
+			sourceTree = "<group>";
+		};
+		979D9068A179AD2F82DB9986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6CDA7CA5E42DD4C5862E5 /* Pods-Focuser.debug.xcconfig */,
+				6ED557F4DCF7B5B4D7490DD0 /* Pods-Focuser.release.xcconfig */,
+				865BE634BE82098FC42FD830 /* Pods-FocuserTests.debug.xcconfig */,
+				F710E226182EDE105FFC8F31 /* Pods-FocuserTests.release.xcconfig */,
+				B5699424C05A5406B34F6189 /* Pods-FocuserUITests.debug.xcconfig */,
+				FA3251CCBC6E92E9FDAC2D78 /* Pods-FocuserUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD2F9371FD1BE54007EA752 /* Focuser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD2F9631FD1BE54007EA752 /* Build configuration list for PBXNativeTarget "Focuser" */;
+			buildPhases = (
+				310BA4D4EC3891E125A04FA3 /* [CP] Check Pods Manifest.lock */,
+				5CD2F9341FD1BE54007EA752 /* Sources */,
+				5CD2F9351FD1BE54007EA752 /* Frameworks */,
+				5CD2F9361FD1BE54007EA752 /* Resources */,
+				C090E340A0E6C9471EF6F1F0 /* [CP] Embed Pods Frameworks */,
+				910E3B5FDEC8EBB5971A6995 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Focuser;
+			productName = Focuser;
+			productReference = 5CD2F9381FD1BE54007EA752 /* Focuser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CD2F94E1FD1BE54007EA752 /* FocuserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD2F9661FD1BE54007EA752 /* Build configuration list for PBXNativeTarget "FocuserTests" */;
+			buildPhases = (
+				253027F2F0328FA66E4BCFF7 /* [CP] Check Pods Manifest.lock */,
+				5CD2F94B1FD1BE54007EA752 /* Sources */,
+				5CD2F94C1FD1BE54007EA752 /* Frameworks */,
+				5CD2F94D1FD1BE54007EA752 /* Resources */,
+				158934DA8D53A8E3A723BA28 /* [CP] Embed Pods Frameworks */,
+				6C2B36AF42F240843B656F01 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CD2F9511FD1BE54007EA752 /* PBXTargetDependency */,
+			);
+			name = FocuserTests;
+			productName = FocuserTests;
+			productReference = 5CD2F94F1FD1BE54007EA752 /* FocuserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CD2F9591FD1BE54007EA752 /* FocuserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD2F9691FD1BE54007EA752 /* Build configuration list for PBXNativeTarget "FocuserUITests" */;
+			buildPhases = (
+				C0A513DC04E452B74A4C3FFF /* [CP] Check Pods Manifest.lock */,
+				5CD2F9561FD1BE54007EA752 /* Sources */,
+				5CD2F9571FD1BE54007EA752 /* Frameworks */,
+				5CD2F9581FD1BE54007EA752 /* Resources */,
+				399DF4C1A3645726615A0E7A /* [CP] Embed Pods Frameworks */,
+				0338E6746333A54C32AB6ECC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CD2F95C1FD1BE54007EA752 /* PBXTargetDependency */,
+			);
+			name = FocuserUITests;
+			productName = FocuserUITests;
+			productReference = 5CD2F95A1FD1BE54007EA752 /* FocuserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD2F9301FD1BE54007EA752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Artur Gurgul";
+				TargetAttributes = {
+					5CD2F9371FD1BE54007EA752 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5CD2F94E1FD1BE54007EA752 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CD2F9371FD1BE54007EA752;
+					};
+					5CD2F9591FD1BE54007EA752 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CD2F9371FD1BE54007EA752;
+					};
+				};
+			};
+			buildConfigurationList = 5CD2F9331FD1BE54007EA752 /* Build configuration list for PBXProject "Focuser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD2F92F1FD1BE54007EA752;
+			productRefGroup = 5CD2F9391FD1BE54007EA752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD2F9371FD1BE54007EA752 /* Focuser */,
+				5CD2F94E1FD1BE54007EA752 /* FocuserTests */,
+				5CD2F9591FD1BE54007EA752 /* FocuserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD2F9361FD1BE54007EA752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD2F9491FD1BE54007EA752 /* LaunchScreen.storyboard in Resources */,
+				5CD2F9461FD1BE54007EA752 /* Assets.xcassets in Resources */,
+				5CD2F9411FD1BE54007EA752 /* Main.storyboard in Resources */,
+				5CC5A1761FD31847009F902D /* digital-7.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD2F94D1FD1BE54007EA752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD2F9581FD1BE54007EA752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0338E6746333A54C32AB6ECC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocuserUITests/Pods-FocuserUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		158934DA8D53A8E3A723BA28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocuserTests/Pods-FocuserTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		253027F2F0328FA66E4BCFF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FocuserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		310BA4D4EC3891E125A04FA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Focuser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		399DF4C1A3645726615A0E7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocuserUITests/Pods-FocuserUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C2B36AF42F240843B656F01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocuserTests/Pods-FocuserTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910E3B5FDEC8EBB5971A6995 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Focuser/Pods-Focuser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C090E340A0E6C9471EF6F1F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Focuser/Pods-Focuser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Focuser/Pods-Focuser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A513DC04E452B74A4C3FFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FocuserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD2F9341FD1BE54007EA752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD2F93E1FD1BE54007EA752 /* ViewController.swift in Sources */,
+				5CD2F93C1FD1BE54007EA752 /* AppDelegate.swift in Sources */,
+				5CD2F9441FD1BE54007EA752 /* Focuser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD2F94B1FD1BE54007EA752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD2F9541FD1BE54007EA752 /* FocuserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD2F9561FD1BE54007EA752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD2F95F1FD1BE54007EA752 /* FocuserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CD2F9511FD1BE54007EA752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CD2F9371FD1BE54007EA752 /* Focuser */;
+			targetProxy = 5CD2F9501FD1BE54007EA752 /* PBXContainerItemProxy */;
+		};
+		5CD2F95C1FD1BE54007EA752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CD2F9371FD1BE54007EA752 /* Focuser */;
+			targetProxy = 5CD2F95B1FD1BE54007EA752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CD2F93F1FD1BE54007EA752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD2F9401FD1BE54007EA752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CD2F9471FD1BE54007EA752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD2F9481FD1BE54007EA752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD2F9611FD1BE54007EA752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CD2F9621FD1BE54007EA752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD2F9641FD1BE54007EA752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF6CDA7CA5E42DD4C5862E5 /* Pods-Focuser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5YSDZX65N;
+				INFOPLIST_FILE = Focuser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.freeworld.Focuser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CD2F9651FD1BE54007EA752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED557F4DCF7B5B4D7490DD0 /* Pods-Focuser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5YSDZX65N;
+				INFOPLIST_FILE = Focuser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.freeworld.Focuser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CD2F9671FD1BE54007EA752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865BE634BE82098FC42FD830 /* Pods-FocuserTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FocuserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.freeworld.FocuserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focuser.app/Focuser";
+			};
+			name = Debug;
+		};
+		5CD2F9681FD1BE54007EA752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F710E226182EDE105FFC8F31 /* Pods-FocuserTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FocuserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.freeworld.FocuserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focuser.app/Focuser";
+			};
+			name = Release;
+		};
+		5CD2F96A1FD1BE54007EA752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5699424C05A5406B34F6189 /* Pods-FocuserUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FocuserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.freeworld.FocuserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Focuser;
+			};
+			name = Debug;
+		};
+		5CD2F96B1FD1BE54007EA752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3251CCBC6E92E9FDAC2D78 /* Pods-FocuserUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FocuserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.freeworld.FocuserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Focuser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD2F9331FD1BE54007EA752 /* Build configuration list for PBXProject "Focuser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD2F9611FD1BE54007EA752 /* Debug */,
+				5CD2F9621FD1BE54007EA752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD2F9631FD1BE54007EA752 /* Build configuration list for PBXNativeTarget "Focuser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD2F9641FD1BE54007EA752 /* Debug */,
+				5CD2F9651FD1BE54007EA752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD2F9661FD1BE54007EA752 /* Build configuration list for PBXNativeTarget "FocuserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD2F9671FD1BE54007EA752 /* Debug */,
+				5CD2F9681FD1BE54007EA752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD2F9691FD1BE54007EA752 /* Build configuration list for PBXNativeTarget "FocuserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD2F96A1FD1BE54007EA752 /* Debug */,
+				5CD2F96B1FD1BE54007EA752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5CD2F9421FD1BE54007EA752 /* Focuser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5CD2F9431FD1BE54007EA752 /* Focuser.xcdatamodel */,
+			);
+			currentVersion = 5CD2F9431FD1BE54007EA752 /* Focuser.xcdatamodel */;
+			path = Focuser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5CD2F9301FD1BE54007EA752 /* Project object */;
+}
